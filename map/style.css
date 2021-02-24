@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.map {
+  height: 100vh;
+  width: 100%;
+}
+
+.map-tooltip {
+  color: #fff;
+  position: absolute;
+  padding: 0.5em;
+  font-size: 0.7em;
+  background: #000;
+  display: none;
+  z-index: 100;
+}
+.map-tooltip h3 {
+  margin: 0;
+  font-size: 1em;
+  color: #43CC70;
+}
